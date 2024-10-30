@@ -221,6 +221,7 @@ export class Backpack
         return this.items.length >= 5;
     }
 
+    // Visitor pattern::::
     visit(visitor: Visitor) {
         this.items.forEach((item) => item.visit(visitor));
     }
