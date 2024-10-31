@@ -50,7 +50,7 @@ export class BackpackItemFactory implements IBackpackItemFactory {
     }
 }
 
-// Facade pattern::::
+// Abstract factory pattern::::
 export class GameEntityAssembler {
     constructor(private backpackItemFactory: BackpackItemFactory) {}
 
